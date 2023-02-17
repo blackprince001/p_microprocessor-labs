@@ -1,0 +1,8 @@
+﻿Name,Quantity,Component
+"UMain Board, U1",2," Arduino Uno R3"
+"RR1, RR2, RR3",3,"100 Ω Resistor"
+"PIEZOfbuzzer, PIEZOsbuzzer, PIEZOtbuzzer",3," Piezo"
+"D1, D4",2,"Red LED"
+"D2, D6",2,"Yellow LED"
+"D3, D5",2,"Green LED"
+"R1, R2, R3, R4, R5, R6",6,"220 Ω Resistor"
