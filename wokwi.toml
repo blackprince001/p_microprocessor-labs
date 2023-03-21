@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = 'Arduino Uno.hex'
-elf = 'path-to-your-firmware.elf'

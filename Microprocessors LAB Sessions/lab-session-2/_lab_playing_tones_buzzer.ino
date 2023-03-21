@@ -1,3 +1,5 @@
+#include "Arduino.h"
+
 int pos = 0;
 int fbuzzer = 8;
 int sbuzzer = 7;

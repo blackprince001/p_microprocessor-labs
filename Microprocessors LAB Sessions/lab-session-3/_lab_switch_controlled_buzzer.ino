@@ -1,3 +1,5 @@
+#include "Arduino.h"
+
 int buzzerInput = 2;
 
 void setup() { pinMode(buzzerInput, INPUT); }

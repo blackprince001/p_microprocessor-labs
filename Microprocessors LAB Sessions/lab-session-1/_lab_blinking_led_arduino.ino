@@ -1,10 +1,8 @@
-int led_red = 12;
-int led_green = 9;
-int led_yellow = 2;
+#include "Arduino.h"
 
-int red_delay_time = 1000;
-int green_delay_time = 5000;
-int yellow_delay_time = 2000;
+int led_red = 12;
+int led_green = 8;
+int led_yellow = 2;
 
 void blinkLED(int seconds, int pinName) {
     digitalWrite(pinName, HIGH);
@@ -21,7 +19,7 @@ void setup() {
 }
 
 void loop() {
-    blinkLED(red_delay_time, led_red);
-    blinkLED(green_delay_time, led_green);
-    blinkLED(yellow_delay_time, led_yellow);
+    blinkLED(1000, led_red);
+    blinkLED(1000, led_green);
+    blinkLED(1000, led_yellow);
 }
